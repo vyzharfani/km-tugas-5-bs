@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduwork</title>
+
+    <link rel="shortcut icon" href="https://eduwork.id/images/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .nav-item {
+            font-weight: bold;
+        }
+
+        #hero {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://eduwork.id/assets/bg-hero.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+
+        .circle {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: inline-block;
+            background-color: #144afd;
+            color: white;
+            font-size: 14px;
+            width: 34px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .free {
+            position: absolute;
+            top: -10px;
+            /*right: -15px;*/
+            left: 130px;
+            height: 30px;
+            width: 65px;
+            text-align: center;
+            font-size: small;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: gray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container mx-auto m-0">
+
+        <div id="hero">
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img
+                            src="https://media.discordapp.net/attachments/436164769423163393/1088743296962134066/eduwork.png?width=791&height=153"
+                            height="30"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Kelas
+                                </a>
+                                <ul class="dropdown-menu text-white bg-dark">
+                                    <li><a class="dropdown-item text-white" href="#">Private Mentoring</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Bootcamp</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Webinar</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hubungi Admin</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary rounded-pill pl-2 pr-2 fw-bold">Login</button>
+                        <button type="button"
+                            class="btn btn-primary rounded-pill pl-2 pr-2 m-2 fw-bold">Register</button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container mt-3 p-3">
+
+                <div class="row">
+
+                    <div class="col">
+                        <h1 class="fw-bolder mb-3">Pelatihan & Penyaluran Kerja.</h1>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto position-relative">
+                                    <div class="rounded-circle text-center text-white circle">1</div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-bold m-1">Daftar, Get Free Class!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="margin-left:35px;">Join komunitas belajar, dapatkan akses kelas & materi gratis</p>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto position-relative">
+                                    <div class="rounded-circle text-center text-white circle">2</div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-bold m-1">Belajar Intensif</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="margin-left:35px;">Belajar didampingi virtual assistant & mentor expert via grup &
+                            1-on-1 zoom mentoring</p>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto position-relative">
+                                    <div class="rounded-circle text-center text-white circle">3</div>
+                                </div>
+                                <div class="col">
+                                    <p class="fw-bold m-1">Penyaluran Kerja Dijamin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="margin-left:35px;">Dapatkan pekerjaan dengan gaji s.d 10jt lebih</p>
+
+                        <div type="button" class="btn btn-primary relative"
+                            style="--bs-btn-padding-y: 10px; --bs-btn-padding-x: 30px;">
+                            Daftar Gratis
+                            <span class="rounded-pill text-bg-danger free px-3 py-1">Free</span>
+                        </div>
+
+                        <div type="button" class="btn btn-primary relative ms-5"
+                            style="--bs-btn-padding-y: 10px; --bs-btn-padding-x: 30px;  background-color: #ffd200; border: none; color: black;">
+                            Konsultasi Dulu
+                        </div>
+
+                        <div class="mt-3">
+                            <p class=""><b>54,129</b> Students & <b>131</b> Mentors has joined!</p>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col relative">
+                        <img
+                            src="https://media.discordapp.net/attachments/436164769423163393/1088743296479801384/eduwork_2.png">
+
+                        <div class="absolute card border-0 rounded-2 p-3 bg-white"
+                            style="width:400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); top: 300px;">
+                            "Sebelumnya saya tidak punya background IT karena jurusan Kimia, setelah saya belajar coding
+                            di Eduwork, Saya berhasil diterima kerja di Tokopedia sebagai Programer."</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
